@@ -14,6 +14,9 @@ class DONTBESCARED_API AMonster_AIController : public AAIController
 {
 	GENERATED_BODY()
 
+public:
+	AMonster_AIController(FObjectInitializer const& ObjectInitializer);
+	
 protected:
 	virtual void OnPossess(APawn* InPawn) override;
 };

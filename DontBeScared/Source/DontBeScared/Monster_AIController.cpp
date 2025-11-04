@@ -5,6 +5,11 @@
 
 #include "Monster.h"
 
+AMonster_AIController::AMonster_AIController(FObjectInitializer const& ObjectInitializer)
+{
+	
+}
+
 void AMonster_AIController::OnPossess(APawn* InPawn)
 {
 	Super::OnPossess(InPawn);
